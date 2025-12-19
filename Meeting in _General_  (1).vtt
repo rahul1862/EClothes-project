@@ -1,0 +1,291 @@
+WEBVTT
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/4-0
+00:00:03.247 --> 00:00:06.847
+<v Pohwani Rahul>Code and it is a web application.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/7-0
+00:00:19.287 --> 00:00:26.163
+<v Pohwani Rahul>So my application is a crude application
+built using PHP for service side logic,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/7-1
+00:00:26.163 --> 00:00:31.087
+<v Pohwani Rahul>PDO for database access and SQL SQLite
+for the databases.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/9-0
+00:00:33.647 --> 00:00:37.065
+<v Pohwani Rahul>And it let so my application lets you
+create, read,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/9-1
+00:00:37.065 --> 00:00:42.127
+<v Pohwani Rahul>update and delete products slash users
+from a database to the web interface.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/10-0
+00:00:44.847 --> 00:00:49.668
+<v Pohwani Rahul>So I have 4 layers,
+so there's a data base layer which SQLite</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/10-1
+00:00:49.668 --> 00:00:56.123
+<v Pohwani Rahul>and SQL scripts are used and for the back
+end layer I used PHP files using PDO and</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/10-2
+00:00:56.123 --> 00:01:00.167
+<v Pohwani Rahul>for the front end layer I used HTML and
+bootstraps.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/11-0
+00:01:01.247 --> 00:01:07.054
+<v Pohwani Rahul>And for the client side logic I used
+JavaScript and jQuery and each layer has</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/11-1
+00:01:07.054 --> 00:01:08.767
+<v Pohwani Rahul>a clear responsibility.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/12-0
+00:01:12.447 --> 00:01:14.687
+<v Pohwani Rahul>And I'll be showing you the database.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/13-0
+00:01:19.807 --> 00:01:20.127
+<v Pohwani Rahul>So.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/14-0
+00:01:21.607 --> 00:01:24.127
+<v Pohwani Rahul>This is the update.
+This is where you can update the.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/15-0
+00:01:27.367 --> 00:01:30.384
+<v Pohwani Rahul>Like your name,
+your username and your products,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/15-1
+00:01:30.384 --> 00:01:34.756
+<v Pohwani Rahul>you've ordered your surname,
+so this is where all the information will</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/15-2
+00:01:34.756 --> 00:01:37.466
+<v Pohwani Rahul>be added onto the website.
+So your address,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/15-3
+00:01:37.466 --> 00:01:41.407
+<v Pohwani Rahul>your town and this is where all your
+information will be saved.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/16-0
+00:01:43.047 --> 00:01:46.342
+<v Pohwani Rahul>PHP.
+So just where all the information will be</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/16-1
+00:01:46.342 --> 00:01:49.567
+<v Pohwani Rahul>saved and this is where you can change
+edits.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/17-0
+00:01:50.807 --> 00:01:53.346
+<v Pohwani Rahul>So if you want to change your name and
+all,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/17-1
+00:01:53.346 --> 00:01:57.964
+<v Pohwani Rahul>that may be done on this and this is
+where all the information will be deleted.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/17-2
+00:01:57.964 --> 00:01:59.927
+<v Pohwani Rahul>So if you want to delete anything.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/18-0
+00:02:06.607 --> 00:02:12.367
+<v Pohwani Rahul>And so how my database would work?
+Is SQL Lite for file based database.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/18-1
+00:02:12.367 --> 00:02:18.527
+<v Pohwani Rahul>So everything is stored in the online
+underscores for SQL Lite which is over</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/18-2
+00:02:18.527 --> 00:02:18.927
+<v Pohwani Rahul>here.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/19-0
+00:02:22.047 --> 00:02:27.099
+<v Pohwani Rahul>And there's no database server needed.
+PHP would read and write directly to the</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/19-1
+00:02:27.099 --> 00:02:28.047
+<v Pohwani Rahul>SQL light file.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/20-0
+00:02:32.167 --> 00:02:36.127
+<v Pohwani Rahul>And the database connection would be DB
+dot PHP.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/21-0
+00:02:37.647 --> 00:02:42.607
+<v Pohwani Rahul>And the file would create one reusable
+PDO connection to the SQL database.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/22-0
+00:02:45.287 --> 00:02:46.487
+<v Pohwani Rahul>And for the back end logic.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/23-0
+00:02:49.727 --> 00:02:50.487
+<v Pohwani Rahul>It would be.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/24-0
+00:02:52.007 --> 00:02:56.807
+<v Pohwani Rahul>This this edit dot PHP and delete PHP
+will be for the back end.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/25-0
+00:03:01.527 --> 00:03:06.936
+<v Pohwani Rahul>And then I will continue to show you my
+website, the web service that's working.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/25-1
+00:03:06.936 --> 00:03:09.207
+<v Pohwani Rahul>So this is all my products I have.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/26-0
+00:03:12.807 --> 00:03:13.407
+<v Pohwani Rahul>So.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/27-0
+00:03:15.167 --> 00:03:18.007
+<v Pohwani Rahul>My web application is hosted on AWS.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/28-0
+00:03:19.887 --> 00:03:22.847
+<v Pohwani Rahul>And so basically you can add to cart.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/29-0
+00:03:24.687 --> 00:03:30.087
+<v Pohwani Rahul>So we've added to the cart and you can
+add this to the cart as well, so you've 2.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/30-0
+00:03:31.927 --> 00:03:33.967
+<v Pohwani Rahul>So you can see the.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/31-0
+00:03:35.687 --> 00:03:38.403
+<v Pohwani Rahul>Like order to them.
+So you seek to check out,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/31-1
+00:03:38.403 --> 00:03:39.407
+<v Pohwani Rahul>place your order.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/32-0
+00:03:41.087 --> 00:03:46.905
+<v Pohwani Rahul>And then you've successfully placed your
+order and so and over here you can check</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/32-1
+00:03:46.905 --> 00:03:51.447
+<v Pohwani Rahul>the orders you've done,
+which is stored in the database and you</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/32-2
+00:03:51.447 --> 00:03:55.847
+<v Pohwani Rahul>can log out as well.
+So the user is going to have to sign up.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/33-0
+00:03:57.647 --> 00:04:02.214
+<v Pohwani Rahul>With the username a password and they'll
+be able to confirm the password and then</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/33-1
+00:04:02.214 --> 00:04:05.054
+<v Pohwani Rahul>they can log in again and see the
+previous orders,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/33-2
+00:04:05.054 --> 00:04:09.287
+<v Pohwani Rahul>which is stored on the database so that
+it'll be fetched from the database,</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/33-3
+00:04:09.287 --> 00:04:10.847
+<v Pohwani Rahul>which is done in SQL, right?</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/34-0
+00:04:13.087 --> 00:04:19.762
+<v Pohwani Rahul>The user will be able to create on sign
+up like for example this and we'll give</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/34-1
+00:04:19.762 --> 00:04:20.847
+<v Pohwani Rahul>the password.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/35-0
+00:04:22.687 --> 00:04:22.807
+<v Pohwani Rahul>Yeah.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/36-0
+00:04:28.807 --> 00:04:35.027
+<v Pohwani Rahul>So now you're made new account and so
+from here you can just make orders like</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/36-1
+00:04:35.027 --> 00:04:39.174
+<v Pohwani Rahul>this. This,
+this and it's all saved here as you can</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/36-2
+00:04:39.174 --> 00:04:41.727
+<v Pohwani Rahul>proceed to check out this order.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/37-0
+00:04:43.287 --> 00:04:48.166
+<v Pohwani Rahul>Continue shopping. There you are.
+And then your order will be saved here.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/37-1
+00:04:48.166 --> 00:04:52.188
+<v Pohwani Rahul>And if for example,
+you want to order something and you want</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/37-2
+00:04:52.188 --> 00:04:55.287
+<v Pohwani Rahul>to delete it,
+you can press the remove button.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/38-0
+00:04:59.407 --> 00:05:02.859
+<v Pohwani Rahul>So then your part is empty,
+so that'll be on the delete part.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/38-1
+00:05:02.859 --> 00:05:06.367
+<v Pohwani Rahul>You just don't know my code.
+You delete it, not PHP over here.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/39-0
+00:05:08.847 --> 00:05:13.327
+<v Pohwani Rahul>So thanks for listening.
+This is my all my code I've showed you</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/39-1
+00:05:13.327 --> 00:05:16.967
+<v Pohwani Rahul>and explained.
+So maybe this will be odd on GitHub.</v>
+
+0d07ecc8-ffd5-496f-85b7-980f52c8f5e8/40-0
+00:05:18.367 --> 00:05:19.367
+<v Pohwani Rahul>So thank you for listening.</v>
